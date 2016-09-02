@@ -11,5 +11,20 @@
 #include <tchar.h>
 
 
+#include <stdlib.h>
+#include <string.h>
+#include <fstream>
+#include <sstream>
+#include <thread>
+#include <chrono>
+#include <iostream>
+#include <limits>
 
-// TODO: reference additional headers your program requires here
+#include <boost/filesystem.hpp>
+
+#include <opencv2/opencv.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/ml.hpp>
+
+
+

@@ -13,9 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="MaxFlow">
+      <UniqueIdentifier>{f50701c5-f909-4924-8075-d4cb75401ef5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+    <Text Include="MaxFlow\CHANGES.TXT">
+      <Filter>MaxFlow</Filter>
+    </Text>
+    <Text Include="MaxFlow\ReadMe.txt">
+      <Filter>MaxFlow</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -23,6 +32,15 @@
     </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxFlow\block.h">
+      <Filter>MaxFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxFlow\graph.h">
+      <Filter>MaxFlow</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -32,5 +50,19 @@
     <ClCompile Include="Knotcut.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="segmentation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxFlow\graph.cpp">
+      <Filter>MaxFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxFlow\maxflow.cpp">
+      <Filter>MaxFlow</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MaxFlow\instances.inc">
+      <Filter>MaxFlow</Filter>
+    </None>
   </ItemGroup>
 </Project>
